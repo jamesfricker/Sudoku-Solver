@@ -16,5 +16,8 @@
     "url": "https://github.com/TehBigFr0g/Sudoku-Solver/issues"
   },
   "homepage": "https://github.com/TehBigFr0g/Sudoku-Solver#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
