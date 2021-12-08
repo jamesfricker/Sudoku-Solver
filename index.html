@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Sudoku">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Sudoku</title>
+  </head>
+  <body>
+    <div id="sudoku-app">
+      <div class="sudoku">
+        <div class="sudoku__header">
+          <h1 class="sudoku__title">Sudoku Solver</h1>
+          <p class="sudoku-description"> Welcome to the Sudoku Solver.</p>
+          <p class="sudoku-description">Generate a new Sudoku, and click 'Solve' to get a solution. <br><br>
+          More information about this solver can be found <a target="_blank" href="https://www.jfricker.com">here</a>. </p>
+
+        </div>
+        <input type="button" value="Solve" class="button button-1">
+        <input type="button" value="Generate-New" class="button button-2">
+        <input type="button" value="Reset" class="button button-3">
+        <form id="sudoku" text-align="center" style="margin: 10px">
+          <table class="sudoku__table" contenteditable='true'></table>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
